@@ -1,0 +1,417 @@
+.app{
+    background: url("/src/style/assets/pink-blue-sky.jpg")no-repeat center fixed;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+    min-width: 1024px;
+    width: 100%;
+    height: 1000px;
+    top: 0;
+    left: 0;
+    font-family: Arial, Helvetica, sans-serif
+  }
+  
+  @media screen and (max-width: 1024px) {
+    .app {
+      left: 50%;
+      margin-left: -512px;
+    }
+  }
+  
+  .calendar-container{
+    margin-top: 50px;
+    background-color: rgba(255, 255, 255, 0.436);
+    width: 80%;
+  }
+  
+  .calendarView{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .newEntryButton{
+    width: 8%;
+    justify-content: right;
+    border-radius: 15px;
+    padding: 8px 0px 8px 0px;
+    background-color: rgba(226, 201, 206, 0.728);
+    font-weight: 700;
+    color: white;
+    border: 2px solid white;
+  }
+  
+  .newEntryButton:hover{
+    width: 8%;
+    justify-content: right;
+    border-radius: 15px;
+    padding: 8px 0px 8px 0px;
+    background-color: rgba(253, 180, 193, 0.621);
+    font-weight: 700;
+    color: white;
+    border: 2px solid white;
+  }
+  
+   .rbc-header{
+    height: 30px;
+    padding-top: 8px !important;
+    color: rgba(73, 73, 73, 0.806);
+    background-color: rgba(247, 247, 247, 0.346);
+    font-weight: bold;
+   }
+  
+   .rbc-toolbar button{
+    color: rgb(78, 78, 78) !important;
+    font-weight: 400;
+   }
+  
+  
+   .rbc-toolbar-label{
+    color: white;
+    font-weight: bold;
+    font-size: xx-large;
+    background-color: rgba(255, 192, 203, 0.561);
+    text-align: right !important;
+   }
+  
+   .rbc-month-view{
+    border: none !important;
+   }
+   .rbc-today {
+    background-color: rgba(255, 192, 203, 0.308) !important;
+   }
+  
+   .rbc-event{
+    background-color: #88b9cf !important;
+    font-family: 'Courier New', Courier, monospace !important;
+   }
+  
+   .rbc-day-bg{
+    border: 2px solid rgba(255, 255, 255, 0.277);
+    background-color: rgba(247, 247, 247, 0.346);
+   }
+  
+   .rbc-day-bg:hover{
+    background-color: rgba(173, 173, 173, 0.346) !important;
+   }
+  
+   .rbc-off-range-bg{
+    background-color: rgba(247, 247, 247, 0.346) !important;
+   }
+  
+   .rbc-button-link{
+    color: rgba(73, 73, 73, 0.806) !important;
+    font-weight: bold;
+   }
+   .registerForm{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+   }
+  
+   .form-container{
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    width: auto;
+   }
+   .registerContainer{
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    width: 100px;
+   }
+  
+  .inputField{
+    width: 300px;
+    height: 30px;
+  }
+  
+  .passwordNote{
+    color: rgba(67, 67, 67, 0.499);
+    font-size: 15px;
+    margin-bottom: 5px;
+  }
+  
+  .buttonContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 12px;
+    margin-bottom: 20px;
+  }
+  
+  .registerLabels{
+    text-align: left;
+  }
+   .title{
+    font-size: x-large;
+    background-color: rgba(255, 255, 255, 0.754);
+    border: none;
+    font-family: 'Courier New', Courier, monospace;
+    color: black;
+   }
+  
+   .description{
+    font-size: larger;
+    background-color: rgba(255, 255, 255, 0.754);
+    border: none;
+    border-top: 1px solid rgb(134, 134, 134);
+  
+   }
+  
+   .content{
+    font-size: large;
+    background-color: rgba(255, 255, 255, 0.754);
+    border: none;
+    min-height: auto;
+   }
+   .createContent{
+    font-size: large;
+    background-color: rgba(255, 255, 255, 0.754);
+    border: none;
+    min-height: 500px;
+   }
+  
+   .date{
+    font-size: large;
+    background-color: rgba(255, 255, 255, 0.754);
+    border: none;
+   }
+  
+   
+   .navbarContainer{
+     display: flex;
+     justify-content: space-between;
+    background-color: rgba(255, 255, 255, 0.304);
+    }
+    
+    .logo{
+     color: white;
+     font-size: 25px;
+     margin-left: 80px;
+  }
+  .jingle{
+    color: white;
+    font-size: 18px;
+  }
+  
+   .navbar{
+    display: flex;
+    list-style: none;
+    margin-right: 80px;
+    align-items: center;
+   }
+  
+  .navbarLinks{
+    color: white;
+    margin: 3px;
+    text-decoration: none;
+    padding-left: 8px;
+    padding-right: 4px;
+  }
+  
+   .dropdown .dropbtn {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+  }
+  
+  .navbar a:hover, .dropdown:hover .dropbtn {
+    text-decoration: underline;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: rgba(255, 192, 203, 0.561);
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content button {
+    float: none;
+    color: white;
+    padding: 12px 16px;
+    display: block;
+    text-align: left;
+    border: none;
+    background-color: rgba(255, 255, 255, 0)
+  }
+  
+  .dropdown button:hover{
+    background-color: rgba(227, 170, 179, 0.722);
+    width: 100%;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  .rbc-day-bg rbc-off-range-bg{
+    background-color: rgba(255, 255, 255, 0.436) !important;
+  }
+  
+  .rbc-off-range{
+    color: black !important;
+  }
+  
+  .entriesContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 1000px;
+    height: 900px;
+    overflow-y: scroll !important;
+    margin-top: 20px;
+  }
+  
+  .singleEntryContainer{
+    background-color: rgba(255, 255, 255, 0.436);
+    border-radius: 12px;
+    padding: 20px;
+    margin-bottom: 15px;
+    color:  rgb(80, 79, 79);
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+   margin-top: 30px;
+  }
+  
+  .registerContainer{
+    background-color: rgba(255, 255, 255, 0.436);
+    border-radius: 12px;
+    padding: 20px;
+    margin-bottom: 15px;
+    color:  rgb(80, 79, 79);
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+   margin-top: 30px;
+   height: auto;
+  }
+  
+  .singleEntryContainer button{
+    border-radius: 5px;
+   padding: 12px 0px 12px 0px;
+   border: 2px solid rgb(223, 166, 176);
+   background-color: rgba(223, 166, 176, 0.53);
+   color: white;
+   font-size: 15px;
+   width: 20%;
+  }
+  
+  .singleEntryContainer button:hover{
+    background-color: rgb(223, 166, 176)
+  }
+  .entryTitle{
+    color: rgb(223, 166, 176);
+    font-weight: bold;
+    width: auto;
+  }
+  .container{
+    justify-content: center;
+    display: flex;
+  }
+  
+  .entryContent{
+    height: 150px;
+    border-radius: 5px;
+    overflow: hidden;
+    background-color: rgba(255, 255, 255, 0.715);
+    padding-left: 10px;
+    padding-right: 10px;
+    color: rgb(80, 79, 79);
+    margin-bottom: 10px;
+    margin-top: 12px;
+    font-family: 'Courier New', Courier, monospace;
+  }
+  .allEntryContent{
+    height: auto;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.715);
+    padding-left: 10px;
+    padding-right: 10px;
+    color: rgb(80, 79, 79);
+    margin-bottom: 10px;
+    margin-top: 12px;
+  }
+  
+  .createDate{
+    text-align: right;
+    font-weight:540;
+  }
+  
+  .buttons{
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .buttons button{
+    font-weight: 800;
+  }
+  
+  .readMoreButton{
+    justify-content: center;
+    display: flex;
+  }
+  
+  .readMoreButton button{
+    font-weight: 800;
+  }
+  
+  .editDeleteBut{
+    width: 1000px;
+    display: flex;
+    justify-content: right;
+  }
+  
+  .editDeleteBut button{
+    margin-left: 20px;
+  
+  }
+  
+  .cancelSubmitButtons{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 12px;
+  }
+  
+  .cancelSubmitButtons button{
+    font-weight: 800;
+  }
+  
+  .regFormContainer{
+    display: flex;
+    justify-content: center;
+  }
+  
+  .signupButton{
+    width: 150px;
+    justify-content: right;
+    border-radius: 15px;
+    padding: 8px 0px 8px 0px;
+    background-color: rgba(216, 216, 216, 0.728);
+    font-weight: 700;
+    color: white;
+    border: 2px solid white;
+    margin-top: 20px;
+    font-size: medium;
+  }
+  
+  .signupButton:hover{
+    background-color: rgba(178, 178, 178, 0.728);
+  }
+  
+  .registerHeader{
+    margin-bottom: 40px;
+    color: white;
+  }
